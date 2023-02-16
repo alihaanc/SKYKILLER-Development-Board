@@ -1,0 +1,232 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model NE555DR
+#/6648/2/2.37/8/4/Integrated Circuit
+DEF NE555DR IC 0 30 Y Y 1 F N
+F0 "IC" 1050 600 50 H V L CNN
+F1 "NE555DR" 1050 500 50 H V L CNN
+F2 "SOIC127P600X175-8N" 1050 400 50 H I L CNN
+F3 "http://www.ti.com/lit/ds/symlink/ne555.pdf" 1050 300 50 H I L CNN
+F4 "Single Precision Timer" 1050 200 50 H I L CNN "Description"
+F5 "1.75" 1050 100 50 H I L CNN "Height"
+F6 "Texas Instruments" 1050 0 50 H I L CNN "Manufacturer_Name"
+F7 "NE555DR" 1050 -100 50 H I L CNN "Manufacturer_Part_Number"
+F8 "595-NE555DR" 1050 -200 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.com/Search/Refine.aspx?Keyword=595-NE555DR" 1050 -300 50 H I L CNN "Mouser Price/Stock"
+F10 "1218414" 1050 -400 50 H I L CNN "RS Part Number"
+F11 "http//uk.rs-online.com/web/p/products/1218414" 1050 -500 50 H I L CNN "RS Price/Stock"
+DRAW
+X GND 1 600 -1000 200 U 50 50 0 0 B
+X TRIG 2 0 -400 200 R 50 50 0 0 B
+X OUT 3 1200 -200 200 L 50 50 0 0 B
+X ~RESET 4 0 0 200 R 50 50 0 0 B
+X CONT 5 500 600 200 D 50 50 0 0 B
+X THRES 6 0 -300 200 R 50 50 0 0 B
+X DISCH 7 0 -100 200 R 50 50 0 0 B
+X VCC 8 700 600 200 D 50 50 0 0 B
+P 5 0 1 6 200 400 1000 400 1000 -800 200 -800 200 400 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model STM32F072C8U6
+#/681761/392339/2.49/49/4/Integrated Circuit
+DEF STM32F072C8U6 IC 0 30 Y Y 1 F N
+F0 "IC" 1650 1000 50 H V L CNN
+F1 "STM32F072C8U6" 1650 900 50 H V L CNN
+F2 "QFN50P700X700X60-49N-D" 1650 800 50 H I L CNN
+F3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/cd/46/43/83/22/d3/40/c8/DM00090510.pdf/files/DM00090510.pdf/jcr:content/translations/en.DM00090510.pdf" 1650 700 50 H I L CNN
+F4 "ARM-based 32-bit MCU, up to 128 KB Flash, crystal-less USB  FS 2.0, CAN, 12 timers, ADC, DAC & comm. interfaces, 2.0 - 3.6 V" 1650 600 50 H I L CNN "Description"
+F5 "0.6" 1650 500 50 H I L CNN "Height"
+F6 "STMicroelectronics" 1650 400 50 H I L CNN "Manufacturer_Name"
+F7 "STM32F072C8U6" 1650 300 50 H I L CNN "Manufacturer_Part_Number"
+F8 "511-STM32F072C8U6" 1650 200 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/STM32F072C8U6?qs=4l9S5vBWkUJ5G0Pjy2Pxcg%3D%3D" 1650 100 50 H I L CNN "Mouser Price/Stock"
+F10 "STM32F072C8U6" 1650 0 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/stm32f072c8u6/stmicroelectronics" 1650 -100 50 H I L CNN "Arrow Price/Stock"
+F12 "" 1650 -200 50 H I L CNN "Mouser Testing Part Number"
+F13 "" 1650 -300 50 H I L CNN "Mouser Testing Price/Stock"
+DRAW
+X VBAT 1 0 0 200 R 50 50 0 0 P
+X PC13 2 0 -100 200 R 50 50 0 0 P
+X PC14-OSC32_IN 3 0 -200 200 R 50 50 0 0 P
+X PC15-OSC32_OUT 4 0 -300 200 R 50 50 0 0 P
+X PF0-OSC_IN 5 0 -400 200 R 50 50 0 0 P
+X PF1-OSC_OUT 6 0 -500 200 R 50 50 0 0 P
+X NRST 7 0 -600 200 R 50 50 0 0 P
+X VSSA 8 0 -700 200 R 50 50 0 0 P
+X VDDA 9 0 -800 200 R 50 50 0 0 P
+X PA0 10 0 -900 200 R 50 50 0 0 P
+X PA1 11 0 -1000 200 R 50 50 0 0 P
+X PA2 12 0 -1100 200 R 50 50 0 0 P
+X PA3 13 300 -1800 200 U 50 50 0 0 P
+X PA4 14 400 -1800 200 U 50 50 0 0 P
+X PA5 15 500 -1800 200 U 50 50 0 0 P
+X PA6 16 600 -1800 200 U 50 50 0 0 P
+X PA7 17 700 -1800 200 U 50 50 0 0 P
+X PB0 18 800 -1800 200 U 50 50 0 0 P
+X PB1 19 900 -1800 200 U 50 50 0 0 P
+X PB2 20 1000 -1800 200 U 50 50 0 0 P
+X PB10 21 1100 -1800 200 U 50 50 0 0 P
+X PB11 22 1200 -1800 200 U 50 50 0 0 P
+X VSS_1 23 1300 -1800 200 U 50 50 0 0 P
+X VDD_1 24 1400 -1800 200 U 50 50 0 0 P
+X VDDIO2 36 1800 0 200 L 50 50 0 0 P
+X VSS_2 35 1800 -100 200 L 50 50 0 0 P
+X PA13 34 1800 -200 200 L 50 50 0 0 P
+X PA12 33 1800 -300 200 L 50 50 0 0 P
+X PA11 32 1800 -400 200 L 50 50 0 0 P
+X PA10 31 1800 -500 200 L 50 50 0 0 P
+X PA9 30 1800 -600 200 L 50 50 0 0 P
+X PA8 29 1800 -700 200 L 50 50 0 0 P
+X PB15 28 1800 -800 200 L 50 50 0 0 P
+X PB14 27 1800 -900 200 L 50 50 0 0 P
+X PB13 26 1800 -1000 200 L 50 50 0 0 P
+X PB12 25 1800 -1100 200 L 50 50 0 0 P
+X EXPOSED_PAD 49 300 1000 200 D 50 50 0 0 P
+X VDD_2 48 400 1000 200 D 50 50 0 0 P
+X VSS_3 47 500 1000 200 D 50 50 0 0 P
+X PB9 46 600 1000 200 D 50 50 0 0 P
+X PB8 45 700 1000 200 D 50 50 0 0 P
+X BOOT0 44 800 1000 200 D 50 50 0 0 P
+X PB7 43 900 1000 200 D 50 50 0 0 P
+X PB6 42 1000 1000 200 D 50 50 0 0 P
+X PB5 41 1100 1000 200 D 50 50 0 0 P
+X PB4 40 1200 1000 200 D 50 50 0 0 P
+X PB3 39 1300 1000 200 D 50 50 0 0 P
+X PA15 38 1400 1000 200 D 50 50 0 0 P
+X PA14 37 1500 1000 200 D 50 50 0 0 P
+P 5 0 1 6 200 800 1600 800 1600 -1600 200 -1600 200 800 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model MPU-6050
+#/13657988/392339/2.49/25/2/Integrated Circuit
+DEF MPU-6050 IC 0 30 Y Y 1 F N
+F0 "IC" 1050 700 50 H V L CNN
+F1 "MPU-6050" 1050 600 50 H V L CNN
+F2 "MPU6050" 1050 500 50 H I L CNN
+F3 "https://product.tdk.com/system/files/dam/doc/product/sensor/mortion-inertial/imu/data_sheet/mpu-6000-datasheet1.pdf" 1050 400 50 H I L CNN
+F4 "IMUs - Inertial Measurement Units 6-Axis MEMS MotionTracking  Device with DMP" 1050 300 50 H I L CNN "Description"
+F5 "0.95" 1050 200 50 H I L CNN "Height"
+F6 "TDK" 1050 100 50 H I L CNN "Manufacturer_Name"
+F7 "MPU-6050" 1050 0 50 H I L CNN "Manufacturer_Part_Number"
+F8 "410-MPU-6050" 1050 -100 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/TDK-InvenSense/MPU-6050?qs=u4fy%2FsgLU9O14B5JgyQFvg%3D%3D" 1050 -200 50 H I L CNN "Mouser Price/Stock"
+F10 "MPU-6050" 1050 -300 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/mpu-6050/invensense?region=nac" 1050 -400 50 H I L CNN "Arrow Price/Stock"
+F12 "" 1050 -500 50 H I L CNN "Mouser Testing Part Number"
+F13 "" 1050 -600 50 H I L CNN "Mouser Testing Price/Stock"
+DRAW
+X CLKIN 1 0 0 200 R 50 50 0 0 P
+X NC_1 2 0 -100 200 R 50 50 0 0 P
+X NC_2 3 0 -200 200 R 50 50 0 0 P
+X NC_3 4 0 -300 200 R 50 50 0 0 P
+X NC_4 5 0 -400 200 R 50 50 0 0 P
+X AUX_DA 6 0 -500 200 R 50 50 0 0 P
+X AUX_CL 7 300 -1200 200 U 50 50 0 0 P
+X VLOGIC 8 400 -1200 200 U 50 50 0 0 P
+X AD0 9 500 -1200 200 U 50 50 0 0 P
+X REGOUT 10 600 -1200 200 U 50 50 0 0 P
+X FSYNC 11 700 -1200 200 U 50 50 0 0 P
+X INT 12 800 -1200 200 U 50 50 0 0 P
+X VDD 13 1200 -500 200 L 50 50 0 0 P
+X NC_5 14 1200 -400 200 L 50 50 0 0 P
+X NC_6 15 1200 -300 200 L 50 50 0 0 P
+X NC_7 16 1200 -200 200 L 50 50 0 0 P
+X NC_8 17 1200 -100 200 L 50 50 0 0 P
+X GND 18 1200 0 200 L 50 50 0 0 P
+X RESV_1 19 900 700 200 D 50 50 0 0 P
+X CPOUT 20 800 700 200 D 50 50 0 0 P
+X RESV_2 21 700 700 200 D 50 50 0 0 P
+X RESV_3 22 600 700 200 D 50 50 0 0 P
+X SCL 23 500 700 200 D 50 50 0 0 P
+X SDA 24 400 700 200 D 50 50 0 0 P
+X EP 25 300 700 200 D 50 50 0 0 P
+P 5 0 1 6 200 500 1000 500 1000 -1000 200 -1000 200 500 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model BMP180
+#/231873/392339/2.49/7/3/Integrated Circuit
+DEF BMP180 IC 0 30 Y Y 1 F N
+F0 "IC" 950 300 50 H V L CNN
+F1 "BMP180" 950 200 50 H V L CNN
+F2 "BMP180" 950 100 50 H I L CNN
+F3 "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA1/140503.pdf" 950 0 50 H I L CNN
+F4 "Board Mount Pressure Sensors Digital Barometer 12uA, 300-1200hPa" 950 -100 50 H I L CNN "Description"
+F5 "" 950 -200 50 H I L CNN "Height"
+F6 "Bosch Sensortec" 950 -300 50 H I L CNN "Manufacturer_Name"
+F7 "BMP180" 950 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "262-BMP180" 950 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Bosch-Sensortec/BMP180?qs=d72FGnIDsgTlLIC5YM2WKA%3D%3D" 950 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "" 950 -700 50 H I L CNN "Arrow Part Number"
+F11 "" 950 -800 50 H I L CNN "Arrow Price/Stock"
+F12 "" 950 -900 50 H I L CNN "Mouser Testing Part Number"
+F13 "" 950 -1000 50 H I L CNN "Mouser Testing Price/Stock"
+DRAW
+X CSB 1 0 0 200 R 50 50 0 0 I
+X VDD 2 0 -100 200 R 50 50 0 0 W
+X VDDIO 3 0 -200 200 R 50 50 0 0 W
+X SDO 4 0 -300 200 R 50 50 0 0 P
+X SCL 5 1100 0 200 L 50 50 0 0 P
+X SDA 6 1100 -100 200 L 50 50 0 0 P
+X GND 7 1100 -200 200 L 50 50 0 0 W
+P 5 0 1 6 200 100 900 100 900 -400 200 -400 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model UCLAMP0571P.TNT
+#/1033480/392339/2.49/2/3/TVS Diode (Uni-directional)
+DEF UCLAMP0571P.TNT D 0 30 Y Y 1 F N
+F0 "D" 400 350 50 H V L BNN
+F1 "UCLAMP0571P.TNT" 400 250 50 H V L BNN
+F2 "DIOC1610X55N" 400 150 50 H I L BNN
+F3 "https://www.mouser.com/datasheet/2/761/uClampxx71P-1360280.pdf" 400 50 50 H I L BNN
+F4 "ESD Suppressors / TVS Diodes 5V, 1-Line Surge protection SGP1610N2" 400 -50 50 H I L BNN "Description"
+F5 "0.55" 400 -150 50 H I L BNN "Height"
+F6 "SEMTECH" 400 -250 50 H I L BNN "Manufacturer_Name"
+F7 "UCLAMP0571P.TNT" 400 -350 50 H I L BNN "Manufacturer_Part_Number"
+F8 "947-UCLAMP0571P.TNT" 400 -450 50 H I L BNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Semtech/UCLAMP0571PTNT?qs=rBWM4%252BvDhIdABRCK070WwQ%3D%3D" 400 -550 50 H I L BNN "Mouser Price/Stock"
+F10 "UCLAMP0571P.TNT" 400 -650 50 H I L BNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/uclamp0571p.tnt/semtech?region=europe" 400 -750 50 H I L BNN "Arrow Price/Stock"
+F12 "" 400 -850 50 H I L BNN "Mouser Testing Part Number"
+F13 "" 400 -950 50 H I L BNN "Mouser Testing Price/Stock"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 600 0 200 L 50 50 0 0 P
+P 4 0 1 6 200 0 400 100 400 -100 200 0 N
+P 2 0 1 6 200 -80 240 -100 N
+P 2 0 1 6 200 -80 200 80 N
+P 2 0 1 6 160 100 200 80 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model MIC5219-3.3YM5-TR
+#/542312/392339/2.49/5/3/Integrated Circuit
+DEF MIC5219-3.3YM5-TR IC 0 30 Y Y 1 F N
+F0 "IC" 850 300 50 H V L CNN
+F1 "MIC5219-3.3YM5-TR" 850 200 50 H V L CNN
+F2 "SOT95P280X145-5N" 850 100 50 H I L CNN
+F3 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en579712" 850 0 50 H I L CNN
+F4 "LDO Regulator Pos 3.3V 0.5A Microchip MIC5219-3.3YM5-TR, LDO Voltage Regulator, 500mA, 3.3 V +/-2%, 2.5  12 Vin, 5-Pin SOT-23" 850 -100 50 H I L CNN "Description"
+F5 "1.45" 850 -200 50 H I L CNN "Height"
+F6 "Microchip" 850 -300 50 H I L CNN "Manufacturer_Name"
+F7 "MIC5219-3.3YM5-TR" 850 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "998-MIC5219-3.3YM5TR" 850 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Microchip-Technology-Atmel/MIC5219-3.3YM5-TR?qs=U6T8BxXiZAWojkIJMtSJlw%3D%3D" 850 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "MIC5219-3.3YM5-TR" 850 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/mic5219-3.3ym5-tr/microchip-technology?region=nac" 850 -800 50 H I L CNN "Arrow Price/Stock"
+F12 "" 850 -900 50 H I L CNN "Mouser Testing Part Number"
+F13 "" 850 -1000 50 H I L CNN "Mouser Testing Price/Stock"
+DRAW
+X IN 1 0 0 200 R 50 50 0 0 P
+X GND 2 0 -100 200 R 50 50 0 0 P
+X EN 3 0 -200 200 R 50 50 0 0 P
+X BYP 4 1000 0 200 L 50 50 0 0 P
+X OUT 5 1000 -100 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 800 100 800 -300 200 -300 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

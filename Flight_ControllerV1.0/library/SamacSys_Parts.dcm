@@ -1,0 +1,39 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NE555DR
+D Single Precision Timer
+K
+F http://www.ti.com/lit/ds/symlink/ne555.pdf
+$ENDCMP
+#
+$CMP STM32F072C8U6
+D ARM-based 32-bit MCU, up to 128 KB Flash, crystal-less USB  FS 2.0, CAN, 12 timers, ADC, DAC & comm. interfaces, 2.0 - 3.6 V
+K
+F http://www.st.com/content/ccc/resource/technical/document/datasheet/cd/46/43/83/22/d3/40/c8/DM00090510.pdf/files/DM00090510.pdf/jcr:content/translations/en.DM00090510.pdf
+$ENDCMP
+#
+$CMP MPU-6050
+D IMUs - Inertial Measurement Units 6-Axis MEMS MotionTracking  Device with DMP
+K
+F https://product.tdk.com/system/files/dam/doc/product/sensor/mortion-inertial/imu/data_sheet/mpu-6000-datasheet1.pdf
+$ENDCMP
+#
+$CMP BMP180
+D Board Mount Pressure Sensors Digital Barometer 12uA, 300-1200hPa
+K
+F https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA1/140503.pdf
+$ENDCMP
+#
+$CMP UCLAMP0571P.TNT
+D ESD Suppressors / TVS Diodes 5V, 1-Line Surge protection SGP1610N2
+K
+F https://www.mouser.com/datasheet/2/761/uClampxx71P-1360280.pdf
+$ENDCMP
+#
+$CMP MIC5219-3.3YM5-TR
+D LDO Regulator Pos 3.3V 0.5A Microchip MIC5219-3.3YM5-TR, LDO Voltage Regulator, 500mA, 3.3 V +/-2%, 2.5  12 Vin, 5-Pin SOT-23
+K
+F http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en579712
+$ENDCMP
+#
+#End Doc Library
